@@ -33,4 +33,5 @@ app.post('/quotes', (req,res) => {
 })
 
 //server.js
-console.log('May Node be with you!')
+console.log('Server is running!')
+ 
