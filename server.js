@@ -4,7 +4,7 @@ const bodyParser = require('body-parser') //middleware - helps to tidy up reques
 const app = express() //allows you to set a variable going forward
 const MongoClient = require('mongodb').MongoClient; //connect to mongodb 
 
-MongoClient.connect(, { useUnifiedTopology: true }, (err, client) => {
+MongoClient.connect('', { useUnifiedTopology: true }, (err, client) => {
     if (err) return console.error(err)
     console.log('Connected to Database')
 })
